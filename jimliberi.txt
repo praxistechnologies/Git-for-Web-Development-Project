@@ -48,7 +48,7 @@
 
 
     15. How do I reference an id?
-    For CSS: #ID
+    For CSS: #ID  
 
 
     16. What is the difference between a section and a div
