@@ -33,7 +33,7 @@
     A Class name is a style identifier that can be used more than once per page, like a button css. 
 
     11. What elements can I add a class to? 
-    Custom Elements or those like h1 h2 h3+, p 
+    Custom Elements or those like h1 h2 h3+, p.
 
     12. How many times can I use the same class on a page? 
     Only one class per page or per website.
