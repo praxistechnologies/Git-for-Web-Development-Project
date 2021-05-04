@@ -1,0 +1,168 @@
+
+    <!-- My Project Link: https://codepen.io/ptsupport/pen/ExWYbbz  -->
+    
+    1. What is Semantic HTML? 
+    HTML is the structure of the page similar to the foundation and walls of a house. Semantic means that these ID's mean something to the viewer of the webpage beyond what is seen when viewing the page as these specific ID's assist those with disabilities. 
+
+    2. What is HTML used for? 
+    The foundation of the website, its structure.
+
+    3. What is an attribute and where do we put it? 
+    Attributes are identifiers of text and images
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    <h1> </h1> is the main Header of the Page. There can be only one.
+
+    5. Name two tags that have required attributes
+    Form fields like Name and Email Address to input.
+
+    6. What do we put in the head of our HTML document? 
+    <nav> </nav> & a Logo and maybe some social links or a quick signup form.
+
+    7. What is an id? 
+    A Class identifier
+
+    8. What elements can I add an id to? 
+    Almost all elements are ID selectable in HTML. But, an ID should only be used for one element on a page.
+
+    9. How many times can I use the same id on a page? 
+    Ideally once. 
+
+
+    10. What is a class? 
+    A Class name is a style identifier that can be used more than once per page, like a button css. 
+
+    11. What elements can I add a class to? 
+    Custom Elements or those like h1 h2 h3+, p 
+
+    12. How many times can I use the same class on a page? 
+    Only one class per page or per website.
+
+    13. How do I get my link to open in a new tab?
+    <a href="https://website.com" target="_blank">Click Here</a>
+
+
+
+    14. What is the alt attribute in the image tag used for?
+    A name identifier for pictures.
+
+
+    15. How do I reference an id?
+    For CSS: #ID
+
+
+    16. What is the difference between a section and a div
+    Sections are bigger than divs which generally reside in sections. 
+
+    17. What is CSS used for? 
+    Styling HTML elements.
+
+    18. How to we select an element? Example - every h2 on the page
+    h2 { color: #000; }
+
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class can be reused on a page or site wide. A ID should only be used once per page.
+
+    20. How do we select classes in CSS?
+    <div class="class">
+
+
+    21. How do we select a p element with a single class of “human””?
+    .human
+
+
+    22. What is a parent child selector? When would this be useful? 
+    Select and style every <type of> element where the parent is a <div> element:
+
+    div > child:first-child {
+    color: #000;
+    }
+
+    To target style a specific facet without touching other 
+
+    23. How do you select all links within a div with the class of sidebar?
+    a:link { color: #000 }
+
+    24. What is a pseudo selector?
+    :hover :visited :active - changes appearance based on set CSS per type of action.
+
+    25. What do we use the change the spacing between lines?
+    line-height: 30px;
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing: 1px;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    .div { border-style: dotted; border-width: 1px; }
+
+
+    29. How do I select everything on the page? 
+    * { color: #000; }
+
+    30. How do I write a comment in CSS?
+    /* Comment */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    whoami
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm file.txt
+
+    34. Why should I use version control? 
+    Its best practice.
+
+    35. How often should I commit to github?
+    As needed with changes.
+
+
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin jim-liberi
+
+    37. Walk me through Lambda's git flow. 
+    This is the best reference material you have: https://www.notion.so/GitFlow-step-by-step-a764163309754e23b1b9c4077b1653cc
+    This video is a great piece too, I got this combo to work and feel a bit more comfortable than I expected to be at this point. 
+    https://www.youtube.com/watch?v=HzXE5vmHeL4
+
+
+
+## Task 3: Stretch
+Stretch Review questions: 
+    1. What is the difference between an inline element and a block element?
+    - Inline will not line break what follows. Block will be on its own line.
+
+    2. What happens when an element is positioned absolutely? 
+     -  This code will sit unto itself and not respect nor be respected by other elements.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    - max-width with CSS
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default, and 1 element that is display inline-block by default
+    
+    - Block Level Elements: Headers, Footers, and Nav
+    - Inline Default Elements: <a>, <button> and <i>
+    - Inline-Block: Allows you to set the width and height like an img
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+    
+    - The Box Model generates squares that can enable margin, padding and border. The fix for the box model entails using CSS for box-sizing: border-box which keeps all of the elements of margin and padding and borders inside the set width fixing responsive alignment issues. 
+
+
+
+    Stretch Git Tasks
+-   [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the    following topics to learn more about Git.
+  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
+  - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
+  - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+
+- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+ - This: https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Graphical-Interfaces
+
+- [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
+ - This: https://clarusway.com/how-to-use-git-github-without-asking-for-authentication-always-passwordless-usage-of-private-git-repositories/
